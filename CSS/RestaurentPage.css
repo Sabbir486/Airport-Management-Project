@@ -161,7 +161,7 @@
 
 #home::before{ 
     content: "";
-    background: url('../ProjectPic/R01.jpg') no-repeat  center  center/cover;
+    background: url('../Restaurent Pic/R01.jpg') no-repeat  center  center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -173,7 +173,7 @@
 
 .bigbox{
     height: 46.875vw;
-    background: url('../ProjectPic/R02.jpg') no-repeat  center  center/cover;
+    background: url('../Restaurent Pic/R02.jpg') no-repeat  center  center/cover;
     position: relative;
     /* top: 0;
     left: 0;*/
