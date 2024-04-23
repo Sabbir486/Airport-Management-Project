@@ -1,0 +1,543 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation bar */
+  .nav1 {
+    background-color: rgb(218, 51, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+  }
+  #navbar {
+    background-color: #464586;
+    display: flex;
+    align-items: center;
+    height: 4.42vw;
+    position: relative;
+  }
+  
+  #navbar::before {
+    content: "";
+    background-color: #464586;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 97%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  
+  /* Navigation bar: Logo and Image */
+  #logo {
+    margin: 0.31vw 0.052vw;
+    padding-top: 0.3vw;
+  }
+  
+  #logo img {
+    width: 9.03vw;
+    height: 4.40vw;
+    margin: 0vw -0.052vw;
+  }
+  
+  /* Navigation bar: List Styling */
+  #navbar ul {
+    display: flex;
+    font-family: "Bree Serif", serif;
+    font-style: normal;
+  }
+  
+  #navbar ul li {
+    font-family: "Bree Serif", serif;
+    font-size: 1.5rem;
+    list-style: none;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 0.46vw 2.2375vw;
+    border-radius: 0.781vw;
+    color: wheat;
+    text-decoration: none;
+    font-family: "Bree Serif", serif;
+  }
+  
+  #navbar ul li a:hover {
+    color: rgb(218, 124, 124);
+    background-color: blueviolet;
+  }
+  
+  /* Navigation2 bar */
+  #navbar2 {
+    background-color: #2b2974;
+    display: flex;
+    align-items: center;
+    height: 3.62vw;
+    position: relative;
+  }
+  
+  #navbar2::before {
+    content: "";
+    background-color: #2b2974;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 97%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  .nav2-searchBar {
+    color: white;
+    display: flex;
+  }
+  .nav2-searchBar input {
+    text-align: center;
+    margin-left: 2vw;
+    border-radius: 18px;
+    width: 25vw;
+    height: 2.8vw;
+    background-color: rgb(238, 217, 217);
+    font-size: 1.4vw;
+  }
+
+  .search-icon {
+    position: relative;
+    left: -5vw;
+    right: 3vw;
+    top: 1vw;
+    color: black;
+  }
+  .nav2-login a {
+    display: flex;
+    margin-left: 5.5vw;
+    color: wheat;
+  }
+  
+  .nav2-login i {
+    font-size: 2vw;
+  }
+  /* Navigation bar2: Logo and Image */
+  #logo2 {
+    margin: 0.3125vw 0.052vw;
+  }
+  
+  #logo2 img {
+    width: 7.031vw;
+    height: 3.385vw;
+    left: auto;
+    margin: -0.365vw -0.052vw;
+  }
+  
+  #logo3 {
+    margin: 0.3125vw 0.052vw;
+  }
+  
+  #logo3 img {
+    width: 5.208vw;
+    height: 5.208vw;
+    margin-left: 84.375vw;
+    /* margin: -7px 1400px; */
+  }
+  
+  #logo2 h2 {
+    display: flex;
+    height: 1.04vw;
+  }
+  
+  /* Navigation bar2: List Styling */
+  #navbar2 ul {
+    display: flex;
+    font-family: "Bree Serif", serif;
+    font-style: normal;
+  }
+  
+  #navbar2 ul li {
+    font-family: "Bree Serif", serif;
+    font-size: 1.5rem;
+    list-style: none;
+  }
+  
+  #navbar2 ul li a {
+    display: block;
+    padding: 0.26vw 0.9375vw;
+    border-radius: 0.781vw;
+    color: wheat;
+    text-decoration: none;
+    font-family: "Bree Serif", serif;
+  }
+  
+  #navbar2 ul li a:hover {
+    color: rgb(218, 124, 124);
+    background-color: blueviolet;
+  }
+  /* ----------*********---------- */
+  /* ----------*********---------- */
+  
+  /* Home Section */
+  #home {
+    display: flex;
+    flex-direction: column;
+    height: 43.8vw;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #home::before {
+    content: "";
+    background: url("../ShoppingPic/S03.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 104%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  
+  .bigbox {
+    height: 46.875vw;
+    background: url("../ShoppingPic/S06.jpg") no-repeat center center/cover;
+    position: absolute;
+    /* top: 0;
+      left: 0;*/   
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  
+  #home h3 {
+    color: #dd53e0;
+    text-align: center;
+    font-family: "Bree Serif", serif;
+  }
+  
+  #home h1 {
+    font-size: 2.8rem;
+    color: #dd53e0;
+    left: 80vw;
+    text-align: center;
+    font-family: "Bree Serif", serif;
+    font-style: normal;
+  }
+
+  /* home-2 */
+#home-2::before {
+    content: "";
+    position: absolute;
+    height: 51.5vw;
+    background: url("../ShoppingPic/S06.jpeg") no-repeat center center/cover;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+  }
+  #home-2 {
+    height: 44vw;
+    margin-top: -9.6vw;
+  }
+  .home-2-op {
+    display: grid;
+    grid-template-columns: 32vw 32vw;
+    grid-template-rows: 10vw 10vw;
+    grid-gap: 5vw 15vw;
+    margin: 8vw;
+    position: relative;
+    top: 10vw;
+  }
+  .options {
+    background-color: #f2cb3f;
+    border-radius: 10px;
+  }
+  .target {
+    position: relative;
+    font-size: 2vw;
+    left: 6vw;
+    top: 2vw;
+  }
+  .target i {
+    color: red;
+  }
+  .target2 {
+    position: relative;
+    font-size: 1.3vw;
+    color: black;
+    left: 21vw;
+    top: 4vw;
+  }
+  .target2 a {
+    text-decoration: none;
+    color: black;
+  }
+  .target2 a:hover {
+    text-decoration: underline;
+    color: rgb(63, 62, 62);
+  }
+  .services {
+    position: relative;
+    font-size: 2vw;
+    left: 6vw;
+    top: 2vw;
+  }
+  .services i {
+    color: red;
+  }
+  .services2 {
+    position: relative;
+    font-size: 1.3vw;
+    color: black;
+    left: 23vw;
+    top: 4vw;
+    width: 50%;
+  }
+  .services2 a {
+    text-decoration: none;
+    color: black;
+  }
+  .services2 a:hover {
+    text-decoration: underline;
+    color: rgb(63, 62, 62);
+  }
+  .restaurant {
+    position: relative;
+    font-size: 2vw;
+    left: 6vw;
+    top: 2vw;
+  }
+  .restaurant i {
+    color: red;
+  }
+  .restaurant2 {
+    position: relative;
+    font-size: 1.3vw;
+    color: black;
+    left: 21vw;
+    top: 4vw;
+  }
+  .restaurant2 a {
+    text-decoration: none;
+    color: black;
+  }
+  .restaurant2 a:hover {
+    text-decoration: underline;
+    color: rgb(63, 62, 62);
+  }
+  .shopping {
+    position: relative;
+    font-size: 2vw;
+    left: 6vw;
+    top: 2vw;
+  }
+  .shopping i {
+    color: red;
+  }
+  .shopping2 {
+    width: 50%;
+    position: relative;
+    font-size: 1.3vw;
+    color: black;
+    left: 21vw;
+    top: 4vw;
+  }
+  .shopping2 a {
+    text-decoration: none;
+    color: black;
+  }
+  .shopping2 a:hover {
+    text-decoration: underline;
+    color: rgb(63, 62, 62);
+  }
+  
+  /* .expert {
+    display: inline-block;
+    border-radius: 20%;
+    font-size: 2vw;
+    background-color: rgb(233, 98, 98);
+    position: relative;
+    left: 72vw;
+    bottom: 5vw;
+    height: 5vw;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .expert:hover {
+    background-color: #d94d4d;
+    cursor: pointer;
+  } */
+  
+  
+  /* #terminal {
+    color: rgb(10, 1, 1);
+    background-color: #b2aee8;
+    padding: 2.03vw;
+    margin: -0.13vw;
+    display: flex;
+  }
+  
+  #terminal .terminalbox {
+    font-family: "Bree Serif", serif;
+    padding-top: 0vw;
+    padding-bottom: 5.979vw;
+    padding-right: 75.5vw;
+  }
+  
+  #terminal .terminalbox2 {
+    font-family: "Bree Serif", serif;
+    bottom: 95vw;
+    padding-top: 0vw;
+    padding-bottom: 5.979vw;
+  }
+  
+  #terminal .terminalbox1 {
+    padding: -0.52vw;
+  } */
+
+  h2{
+    display: inline-block;
+    align-items: center;
+    margin: 3vw;
+    padding: 2.1vw;
+    height: 9vw;
+    
+    background-color: antiquewhite;
+    font-size: 3.5rem;
+    border-radius: 0.881vw;
+    border: 0.104vw solid rgb(228, 152, 152);
+  }
+  
+  #shop {
+    height: 29vw;
+    margin: -1.083vw;
+    display: flex;
+  }
+  
+  #shop .box {
+    border: 0.104vw solid rgb(228, 152, 152);
+    padding: 2.865vw;
+    margin: 4.896vw;
+    height: 12.77vw;
+    border-radius: 0.781vw;
+    background-color: rgb(240, 233, 233);
+  }
+  
+  #shop .box img {
+    display: block;
+    margin: auto;
+    /* height: 6.77vw; */
+    height: 4.854vw;
+    width: 8.5vw;
+  }
+  
+  /* Utility Class */
+  .h-primary {
+    font-size: 1.8rem;
+    padding: 0.781vw;
+    font-family: "Bree Serif", serif;
+  }
+  
+  .btn {
+    padding: 0.52vw 0.781vw;
+    border: 0.104vw solid white;
+    background-color: rgb(199, 61, 61);
+    color: white;
+    font-size: 0.5rem;
+    border-radius: 0.52vw;
+    cursor: pointer;
+    font-family: "Bree Serif", serif;
+  }
+  
+  .btn2 {
+    padding: 0.52vw 1.31vw;
+    border: 0.104vw solid white;
+    background-color: rgb(199, 61, 61);
+    color: white;
+    font-size: 1.45rem;
+    border-radius: 0.52vw;
+    cursor: pointer;
+    font-family: "Bree Serif", serif;
+  }
+  /* footer */
+  footer {
+    background-color: #4f5ea3;
+    font-size: 1.4vw;
+  }
+  .footer-1st {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+  }
+  .footer-logo {
+    background-image: url(../ShoppingPic/logo.png);
+    background-size: cover;
+    background-position: center;
+    height: 3.8vw;
+    width: 7.7%;
+  }
+  .title {
+    font-size: 1.3vw;
+    font-weight: bold;
+  }
+  .footer-2nd {
+    height: 7vw;
+    border-bottom: 2px solid red;
+  }
+  .footer2d-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 2px solid white;
+  }
+  .links {
+    display: flex;
+  }
+  .links i {
+    padding-left: 1vw;
+  }
+  .footer-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* .terminal {
+    background-color: rgb(51, 51, 145);
+    height: 15vw;
+    width: 80%;
+    margin-left: 10vw;
+    position: relative;
+    bottom: 2vw;
+    border-radius: 12px;
+  }
+  .select-terminal {
+    font-size: 2vw;
+    position: relative;
+    left: 2vw;
+    margin-bottom: 0.8vw;
+  }
+  .select-terminal button {
+    font-size: 1.8vw;
+    position: relative;
+    left: 57vw;
+  }
+  
+  .terminal-op button {
+    margin-left: 30px;
+    font-size: 1.8vw;
+    margin-bottom: 1vw;
+  } */
+  
+  .select-category button {
+    margin-left: 30px;
+    font-size: 1.2vw;
+  }
+  
